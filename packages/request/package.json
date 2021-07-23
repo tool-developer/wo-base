@@ -1,6 +1,6 @@
 {
   "name": "@tool-developer/wo-base-request",
-  "version": "0.0.0-canary.1",
+  "version": "0.0.1",
   "description": "wo request",
   "main": "index.js",
   "module": "dist/index.js",
@@ -33,7 +33,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@tool-developer/wo-base-utils": "^0.0.0-canary.1",
+    "@tool-developer/wo-base-utils": "^0.0.1",
     "isomorphic-fetch": "^3.0.0",
     "query-string": "^7.0.1"
   },

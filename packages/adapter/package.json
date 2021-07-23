@@ -1,6 +1,6 @@
 {
   "name": "@tool-developer/wo-base-adapter",
-  "version": "0.0.0-canary.1",
+  "version": "0.0.1",
   "description": "wo request",
   "scripts": {
     "test": "jest",
