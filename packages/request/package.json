@@ -8,10 +8,10 @@
     "test": "jest",
     "clean": "../../scripts/clean_package.sh",
     "build": "npm run clean & rollup -c",
-    "i":"yarn",
-    "l":"yarn link",
-    "nl":"yarn unlink",
-    "pl":"yarn link @tool-developer/wo-base-utils"
+    "i": "yarn",
+    "l": "yarn link",
+    "nl": "yarn unlink",
+    "pl": "yarn link @tool-developer/wo-base-utils"
   },
   "repository": {
     "type": "git",
