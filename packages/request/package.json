@@ -1,0 +1,41 @@
+{
+  "name": "@tool-developer/wo-base-request",
+  "version": "0.0.0-canary.1",
+  "description": "wo request",
+  "main": "index.js",
+  "module": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "clean": "../../scripts/clean_package.sh",
+    "build": "npm run clean & rollup -c",
+    "i":"yarn",
+    "l":"yarn link",
+    "nl":"yarn unlink",
+    "pl":"yarn link @tool-developer/wo-base-utils"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tool-developer/wo-base.git"
+  },
+  "keywords": [
+    "request",
+    "wo request",
+    "wo-request",
+    "axios"
+  ],
+  "author": "@tool-developer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tool-developer/wo-base/issues"
+  },
+  "homepage": "https://github.com/tool-developer/wo-base#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@tool-developer/wo-base-utils": "^0.0.0-canary.1",
+    "isomorphic-fetch": "^3.0.0",
+    "query-string": "^7.0.1"
+  },
+  "gitHead": "f75c5d166b55b78d7032edd0921cf164ef657cf2"
+}

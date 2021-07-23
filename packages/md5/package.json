@@ -1,0 +1,36 @@
+{
+  "name": "@tool-developer/wo-base-md5",
+  "version": "0.0.4-canary.0",
+  "description": "wx miniprogram async task support",
+  "main": "index.js",
+  "module": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "clean": "../../scripts/clean_package.sh",
+    "build": "npm run clean & rollup -c",
+    "i":"yarn",
+    "l":"yarn link",
+    "nl":"yarn unlink"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tool-developer/wo-base.git"
+  },
+  "keywords": [
+    "wx",
+    "wx md5"
+  ],
+  "author": "@tool-developer",
+  "license": "MIT",
+  "miniprogram": "miniprogram_dist",
+  "bugs": {
+    "url": "https://github.com/tool-developer/wo-base/issues"
+  },
+  "homepage": "https://github.com/tool-developer/wo-base#readme",
+  "devDependencies": {
+    "blueimp-md5": "^2.18.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
