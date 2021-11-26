@@ -1,6 +1,6 @@
 {
   "name": "@tool-developer/wo-base-utils",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "wo utils library",
   "main": "index.js",
   "module": "dist/index.js",
