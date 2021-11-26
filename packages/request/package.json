@@ -34,7 +34,6 @@
   },
   "dependencies": {
     "@tool-developer/wo-base-utils": "^0.0.2",
-    "isomorphic-fetch": "^3.0.0",
     "query-string": "^7.0.1"
   },
   "gitHead": "f75c5d166b55b78d7032edd0921cf164ef657cf2"
