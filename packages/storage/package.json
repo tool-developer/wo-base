@@ -1,6 +1,6 @@
 {
   "name": "@tool-developer/wo-base-storage",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "wo storage library",
   "main": "index.js",
   "module": "dist/index.js",

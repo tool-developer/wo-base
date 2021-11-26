@@ -1,6 +1,6 @@
 {
   "name": "@tool-developer/wo-base-request",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "wo request",
   "main": "index.js",
   "module": "dist/index.js",
@@ -33,7 +33,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@tool-developer/wo-base-utils": "^0.0.2",
+    "@tool-developer/wo-base-utils": "^0.0.3",
     "query-string": "^7.0.1"
   },
   "gitHead": "f75c5d166b55b78d7032edd0921cf164ef657cf2"
